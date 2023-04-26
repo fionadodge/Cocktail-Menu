@@ -1,0 +1,14 @@
+ .button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-image: linear-gradient(to top, purple 0%, #fbc2eb 100%);
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 #a3a1a1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border: none;
+    
+  }
