@@ -1,0 +1,25 @@
+.cocktail_photo {
+    position: relative;
+    display: inline-block;
+    background-color: antiquewhite;
+  }
+
+  .cocktail_photo h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size: 16px; /* adjust the font size as needed */
+    color: rgb(167, 165, 165); /* set the text color to contrast with the image */
+    padding: 10px; /* add some padding to the text to make it more legible */
+  }
+
+.cocktail_photo p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    font-size: 16px; /* adjust the font size as needed */
+    color: rgb(167, 165, 165); /* set the text color to contrast with the image */
+    padding: 10px; /* add some padding to the text to make it more legible */
+}

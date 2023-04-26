@@ -1,6 +1,8 @@
 import './App.css';
 import Product from './Product';
 import Button from './Button';
+import Pornstar from './images/pornstar.jpg';
+import './image.css';
 
 function App() {
   return (
@@ -16,12 +18,11 @@ function App() {
         <Product name='Sex on the Beach' description='JJ Whitley vodka, peach schnapps, orange & cranberry juice.' price={7.80} />
         <Button />
         <Product name='Popcorn Old Fashioned' description='Classic Buffalo Trace Bourbon. Old fashioned made with popcorn syrup.' price={8.30} />
-        <div className="cocktail_photo">
-          <img src="" alt="Cocktail"></img>
-          <h2>"A sweet fruity taste knocked back with some bubbles - a must drink"</h2>
-          <p>Isabel</p>
-          <p>Pornstar Martini</p>
-        </div>
+      <div className="cocktail_photo">
+        <img src={Pornstar} height={300} width={200} />
+        <h2>"A sweet fruity taste knocked back with some bubbles - a must drink"</h2>
+        <p>Pornstar Martini</p>
+      </div> 
       </div><div className="Column2">
         <Product name='Cherry Cuba Libre' description='Cherry rum & Amaretto mixed with lime juice and topped with coca-cola. Served long with a cherry on top.' price={8.30} />
         <Button />
