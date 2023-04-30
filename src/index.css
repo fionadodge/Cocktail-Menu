@@ -29,7 +29,24 @@ code {
 
 .Main_Menu {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin-bottom: 20px;
 }
+
+@media (max-width: 500px) {
+  .Main_Menu {
+    flex-direction: column;
+  }
+  
+  .Column1, .Column2 {
+    width: 100%;
+    margin-right: 10px;
+    padding-right: 20px;
+  }
+}
+
+
+
+
 

@@ -28,3 +28,9 @@
     color: rgb(167, 165, 165); /* set the text color to contrast with the image */
     padding: 10px; /* add some padding to the text to make it more legible */
 }
+
+@media (max-width: 500px) {
+  #cocktail_photo_quote {
+    max-width: 190px;
+  }
+}

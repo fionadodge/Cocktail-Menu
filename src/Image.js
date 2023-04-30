@@ -1,5 +1,5 @@
 import React from "react";
-import './Image.css';
+import './image.css';
 
 function Images({src, quote, cocktail}) {
 
