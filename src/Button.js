@@ -16,7 +16,9 @@ function Button(props){
   
   return (
     <div>
-      <button class="button" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Order</button>
+        <a href='orderpg.html'>
+        <button class="button" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Order</button>
+        </a>
     </div>
   );
 }
