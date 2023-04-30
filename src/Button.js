@@ -1,16 +1,25 @@
 import React from "react";
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import './Button.css';
 
-function Button({message}){
-    return (
-        <button className ="button" type="button">Order</button>
-    );
-}
-
-Button.propTypes = {
-    message: PropTypes.string
+function Button(props){
+  const { id, productId } = props;
+  
+  const handleMouseEnter = () => {
+    const heading = document.getElementById(productId);
+    heading.style.backgroundColor = "grey";
+  };
+  
+  const handleMouseLeave = () => {
+    const heading = document.getElementById(productId);
+    heading.style.backgroundColor = "transparent";
+  };
+  
+  return (
+    <div>
+      <button class="button" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Order</button>
+    </div>
+  );
 }
 
 export default Button;
+

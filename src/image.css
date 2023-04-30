@@ -1,25 +1,30 @@
-.cocktail_photo {
+#cocktail_photo {
     position: relative;
-    display: inline-block;
-    background-color: antiquewhite;
+    margin-top: 10px;
+    display: flex;
+    border: antiquewhite;
+    border-style: groove;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
   }
 
-  .cocktail_photo h2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    font-size: 16px; /* adjust the font size as needed */
-    color: rgb(167, 165, 165); /* set the text color to contrast with the image */
-    padding: 10px; /* add some padding to the text to make it more legible */
-  }
+#cocktail_photo_quote{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-size: 10px; /* adjust the font size as needed */
+  color: rgb(167, 165, 165); /* set the text color to contrast with the image */
+  padding: 10px; /* add some padding to the text to make it more legible */
+}
 
-.cocktail_photo p {
+#cocktail_photo_name{
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     margin: 0;
-    font-size: 16px; /* adjust the font size as needed */
+    font-size: 10px; /* adjust the font size as needed */
     color: rgb(167, 165, 165); /* set the text color to contrast with the image */
     padding: 10px; /* add some padding to the text to make it more legible */
 }
