@@ -1,3 +1,4 @@
+//App.js
 import './App.css';
 import Product from './Product';
 import Images from './Image';
@@ -5,6 +6,10 @@ import Pornstar from './images/pornstar.jpg';
 import classNames from 'classnames';
 
 function App() {
+
+  const orderedCocktails = JSON.parse(localStorage.getItem('orderedCocktails')) || [];
+  localStorage.setItem('orderedCocktails', JSON.stringify(orderedCocktails));
+
   return (
     <><div className="menu_header">
       <h1>Cocktails</h1>
