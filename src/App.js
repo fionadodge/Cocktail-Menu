@@ -3,6 +3,7 @@ import './App.css';
 import Product from './Product';
 import Images from './Image';
 import Pornstar from './images/pornstar.jpg';
+import Footer from './Footer';
 import classNames from 'classnames';
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
         <Product id="amaretto-sour" name="Amaretto Sour" description="Amaretto, lemon juice &sugar syrup with a frothy top. Swap Amaretto for Buffalo Trace Bourbon for a Whiskey Sour." price={7.90} />
         <Product id="classic-mojito" name='Classic Mojito' description='Bacardi, lime & mint mixed up with your choice of flavour.' price={7.20} />
       </div>
+    </div>
+    <div>
+      <Footer /> 
     </div></>
   );
 }
