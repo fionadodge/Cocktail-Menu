@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './Button.css';
-import name from './Product';
-import id from './Product';
 
 function Button(props) {
   const { name } = props;

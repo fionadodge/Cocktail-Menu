@@ -4,7 +4,6 @@ import Product from './Product';
 import Images from './Image';
 import Pornstar from './images/pornstar.jpg';
 import Footer from './Footer';
-import classNames from 'classnames';
 
 function App() {
 
