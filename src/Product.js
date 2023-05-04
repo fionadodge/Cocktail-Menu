@@ -1,6 +1,8 @@
 // Product.js
 import React from "react";
+import ReactDOM from "react-dom";
 import Button from './Button';
+import OrderPage from "./OrderPage";
 import './Product.css';
 
 function Product({id, name, description, price}) {
@@ -11,6 +13,9 @@ function Product({id, name, description, price}) {
     orderedCocktails.push({id, name});
     localStorage.setItem('orderedCocktails', JSON.stringify(orderedCocktails));
     console.log(`Selected cocktail: ${name}`);
+
+      // Navigate to the order page
+    ReactDOM.render(<OrderPage orderedCocktails={orderedCocktails} />, document.getElementById('root'));
   }
 
   return (
