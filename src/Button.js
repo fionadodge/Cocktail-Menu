@@ -1,3 +1,4 @@
+//Button.js
 import React, { useState } from 'react';
 import './Button.css';
 
@@ -14,11 +15,7 @@ function Button(props) {
       selectedProducts.push(name);
     }
     localStorage.setItem('selectedProducts', JSON.stringify(selectedProducts));
-    const selectedProductNames = selectedProducts.map(productId => {
-      const product = document.getElementById(productId);
-      return product ? product.getAttribute('data-name') : '';
-    });
-    console.log(`Selected cocktails: ${selectedProductNames}`);
+    console.log(`Selected cocktails: ${name}`);
   };
 
   const handleMouseEnter = () => {

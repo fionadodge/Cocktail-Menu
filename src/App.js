@@ -11,15 +11,7 @@ function App() {
   const orderedCocktails = JSON.parse(localStorage.getItem('orderedCocktails')) || [];
   localStorage.setItem('orderedCocktails', JSON.stringify(orderedCocktails));
 
-  function handleAddToCart(id, name) {
-    const orderedCocktails = JSON.parse(localStorage.getItem('orderedCocktails')) || [];
-    orderedCocktails.push({id, name});
-    localStorage.setItem('orderedCocktails', JSON.stringify(orderedCocktails));
-    console.log(`Selected cocktail: ${name}`);
 
-  }
-
-  
   return (
     <><div className="menu_header">
       <h1>Cocktails</h1>
