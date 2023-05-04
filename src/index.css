@@ -11,6 +11,7 @@ code {
   flex-direction: column;
   width: 40%;
   margin-left: 20px;
+  align-items: center;
 }
 
 .Column2 {
@@ -48,7 +49,7 @@ code {
   margin-bottom: 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .Main_Menu {
     flex-direction: column;
   }
@@ -56,7 +57,9 @@ code {
   .Column1, .Column2 {
     width: 100%;
     margin-right: 10px;
+    margin-left: 10px;
     padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
