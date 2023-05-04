@@ -1,3 +1,15 @@
 #product-heading {
-    background-color: antiquewhite;
+    text-decoration: underline;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    border-radius: 5px 5px 0px 0px;
+    padding: 2px;
+    box-shadow: 0px 13px 10px -7px #a3a1a1;
+}
+
+.card {
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 5px;
 }

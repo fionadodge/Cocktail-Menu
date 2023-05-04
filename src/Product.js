@@ -15,7 +15,7 @@ function Product({id, name, description, price}) {
   }
 
   return (
-    <div>
+    <div className="card">
       <h2 id="product-heading"><i>{name}</i></h2>
       <h3>{description}</h3>
       <h4>£{formattedPrice}</h4>
