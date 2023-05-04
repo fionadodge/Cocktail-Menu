@@ -7,8 +7,6 @@ import Pornstar from './images/pornstar.jpg';
 import Footer from './Footer';
 
 function App() {
-  const orderedCocktails = JSON.parse(localStorage.getItem('orderedCocktails')) || [];
-  localStorage.setItem('orderedCocktails', JSON.stringify(orderedCocktails));
 
 
   return (
