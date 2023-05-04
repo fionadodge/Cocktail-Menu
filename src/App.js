@@ -5,7 +5,6 @@ import Product from './Product';
 import Images from './Image';
 import Pornstar from './images/pornstar.jpg';
 import Footer from './Footer';
-import OrderPage from './OrderPage';
 
 function App() {
   const [showOrderPage, setShowOrderPage] = useState(false);
@@ -17,16 +16,9 @@ function App() {
     orderedCocktails.push({id, name});
     localStorage.setItem('orderedCocktails', JSON.stringify(orderedCocktails));
     console.log(`Selected cocktail: ${name}`);
-    setShowOrderPage(true);
+
   }
 
-  function handleGoBack() {
-    setShowOrderPage(false);
-  }
-
-  if (showOrderPage) {
-    return <OrderPage orderedCocktails={orderedCocktails} onGoBack={handleGoBack} />;
-  }
   
   return (
     <><div className="menu_header">
